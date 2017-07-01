@@ -1,0 +1,68 @@
+#main-container{
+	width:70%;
+	margin:0 auto;
+	text-align:center;
+}
+
+
+ul li input[type=radio]{
+  position: absolute;
+  visibility: hidden;
+}
+
+
+table {
+    border-collapse: collapse;
+	border: 2px solid white;
+    width: 100%;
+	font-family: Verdana, sans-serif;
+}
+
+th, td {
+    padding: 8px;
+
+}
+
+
+
+th {
+    background-color: #4CAF50;
+	
+    color: white;
+}
+
+.pregunta{
+	width: 60%;
+}
+
+th.pregunta {
+
+	text-align:left;
+}
+
+th.puntaje {
+
+	text-align:center;
+}
+
+td.pregunta {
+	border-right: 1px solid white;
+	text-align: left;
+}
+.titulo{
+	text-align: left;
+	background-color: #d3f7c0;
+}
+
+
+.seccion{
+	background-color: #d3f7c0;
+
+}
+
+h1.encabezado{
+	text-align: center;
+	background-color: #d3f7c0;
+}
+
+td:hover{background-color:#white}
